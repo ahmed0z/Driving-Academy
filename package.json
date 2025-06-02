@@ -2,7 +2,7 @@
   "name": "my-driving-school-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ahmed0z.github.io/Driving-Academy",
+  "homepage": "https://ahmed0z.github.io/Driving-academy-v1",
   "dependencies": {
     "lucide-react": "^0.300.0",
     "react": "^18.2.0",
