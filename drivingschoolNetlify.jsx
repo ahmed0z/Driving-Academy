@@ -1290,4 +1290,9 @@ const DrivingSchoolSystem = () => {
   );
 };
 
-export default DrivingSchoolSystem;
+// Wrapper App component
+const App = () => {
+  return <DrivingSchoolSystem />;
+}
+
+export default App;
