@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your global styles can go here */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fix for date picker indicator in dark mode, if not already handled by your component's style tag */
+/* Your component already includes a style tag for this[cite: 240], so this might be redundant unless that's removed */
+/*
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: grayscale(70%) brightness(60%) contrast(150%);
+}
+html.dark input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1) brightness(0.8);
+}
+*/
